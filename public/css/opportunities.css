@@ -1,0 +1,105 @@
+.content {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.section-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.opportunity-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.opportunity-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: calc(50% - 10px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.opportunity-card h3 {
+    margin-top: 0;
+}
+
+.select-btn {
+    background: #0b6623;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.select-btn:hover {
+    background: #145c2f;
+}
+
+/* Modal Styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom:0;
+    background-color: rgba(0,0,0,0.5);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:1000;
+}
+
+.modal-content {
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    width:90%;
+    max-width:500px;
+    position:relative;
+}
+
+.close {
+    position:absolute;
+    top:10px;
+    right:15px;
+    font-size:25px;
+    cursor:pointer;
+}
+
+input, select {
+    width:100%;
+    padding:8px;
+    margin:5px 0 15px 0;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+.submit-btn {
+    background:#0b6623;
+    color:white;
+    padding:10px 15px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.submit-btn:hover {
+    background:#145c2f;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+
+

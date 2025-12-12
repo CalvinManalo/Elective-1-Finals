@@ -1,0 +1,47 @@
+/* Limit the main container width to match navbar */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Table layout for centering */
+.calendar-table {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.calendar-cell {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    border: 1px solid #ccc; /* optional boundary */
+}
+
+/* Image wrapper */
+.calendar-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Calendar image */
+.calendar-img {
+    width: 600px;       /* minimized fixed width on desktop */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px; /* subtle polish */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15); /* optional shadow */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .calendar-img {
+        width: 100%;    /* scale down to fit mobile */
+        max-width: 100%;
+    }
+}
+
+
+
